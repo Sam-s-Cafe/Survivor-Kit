@@ -1,6 +1,6 @@
 
 
-const CACHE_NAME = 'survivor-kit-cache-v14';
+const CACHE_NAME = 'survivor-kit-cache-v15';
 const URLS_TO_CACHE = [
   '/',
   '/index.html',
@@ -26,9 +26,13 @@ const URLS_TO_CACHE = [
   '/components/ErrorBoundary.tsx',
   '/components/icons/Icons.tsx',
   'https://cdn.tailwindcss.com',
-  'https://esm.sh/qrcode',
-  'https://esm.sh/firebase@10.12.2/app?target=es2022',
-  'https://esm.sh/firebase@10.12.2/firestore?target=es2022'
+  // Match the new importmap exactly
+  "https://esm.sh/react@19.1.0",
+  "https://esm.sh/react-dom@19.1.0/client",
+  "https://esm.sh/qrcode",
+  "https://esm.sh/firebase@10.12.2/app",
+  "https://esm.sh/firebase@10.12.2/firestore",
+  "https://esm.sh/firebase@10.12.2/auth"
 ];
 
 self.addEventListener('install', event => {

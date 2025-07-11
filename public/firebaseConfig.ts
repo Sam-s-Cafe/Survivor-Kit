@@ -27,7 +27,6 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
-
 // --- IMPORTANT SECURITY RULE ---
 // In your Firebase console, go to Firestore Database > Rules and set the following rule
 // to secure your database collections.
