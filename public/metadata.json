@@ -1,0 +1,9 @@
+
+{
+  "name": "Offline War Survivor Kit",
+  "description": "A Progressive Web App for world war survivors, providing offline access to survival videos, a simulated communication tool, and a bunker locator.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

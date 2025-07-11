@@ -1,0 +1,21 @@
+{
+  "short_name": "Survivor Kit",
+  "name": "Offline War Survivor Kit",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192' width='192' height='192'%3e%3crect width='192' height='192' fill='%231f2937'/%3e%3cpath d='M96 20 L26 55 V105 C26 145, 96 172, 96 172 C96 172, 166 145, 166 105 V55 Z' fill='none' stroke='%23e5e7eb' stroke-width='10'/%3e%3cpath d='M96 60 L121 85 L96 110 L71 85 Z' fill='%23e5e7eb'/%3e%3c/svg%3e",
+      "type": "image/svg+xml",
+      "sizes": "192x192"
+    },
+    {
+      "src": "data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' width='512' height='512'%3e%3crect width='512' height='512' fill='%231f2937'/%3e%3cpath d='M256 50 L56 140 V290 C56 420, 256 462, 256 462 C256 462, 456 420, 456 290 V140 Z' fill='none' stroke='%23e5e7eb' stroke-width='20'/%3e%3cpath d='M256 160 L321 225 L256 290 L191 225 Z' fill='%23e5e7eb'/%3e%3c/svg%3e",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1f2937",
+  "background_color": "#111827",
+  "description": "An offline-first PWA for survival situations. Deployable on Firebase."
+}
